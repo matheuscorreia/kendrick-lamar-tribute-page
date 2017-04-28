@@ -1,0 +1,60 @@
+h1{
+    margin: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fade{
+    opacity: 0;
+}
+
+.subtitle{
+    font-size: 3em;
+    color: #636363;
+    margin: 0em 0em 0em 0em;
+    white-space: nowrap;
+}
+
+.header{
+    margin: 1em 0em 1em 0em;
+}
+
+.credit{
+    text-align: center;
+}
+
+.album-cover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all .2s ease-in-out;
+    margin: 1em 0em 1em 0em;
+}
+
+.album-cover:hover{
+    transform: scale(1.1);
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+#albums-banner{
+   margin: 1em 0em 1em 0em;
+}
+
+#album-description{
+    margin: 1em 0em 2em 0em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#bio{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#bio > p{
+    font-size: 1.3em;
+    text-align: justify;
+    text-justify: inter-word;
+}
